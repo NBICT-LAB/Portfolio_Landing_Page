@@ -67,6 +67,13 @@ The navbar toggle appears at this breakpoint */
 .section-team .header-section .title {
     font-weight: 700;
     font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.ceo{
+  position: relative;
+  top: -80px;
+  background: linear-gradient(to right, #016cec, #00b5f7);
 }
 
 .section-team .single-person {
@@ -75,6 +82,7 @@ The navbar toggle appears at this breakpoint */
   background-color: #f6f9ff;
   border-radius: 5px;
 }
+
 
 .section-team .single-person:hover {
   background: linear-gradient(to right, #016cec, #00b5f7);
@@ -92,6 +100,10 @@ The navbar toggle appears at this breakpoint */
   padding: 12px;
     border: 4px dashed #fff;
 }
+.section-team .ceo .person-image {
+    /* border: 4px dashed #fff; */
+}
+
 
 .section-team .single-person .person-image img {
   width: 100%;
@@ -131,11 +143,16 @@ The navbar toggle appears at this breakpoint */
     font-size: 14px;
     color: #016cec;
 }
+.section-team .ceo .person-info .speciality {
+  color: #000205;
+}
 
 .section-team .single-person:hover .full-name,
 .section-team .single-person:hover .speciality {
   color: #fff;
 }
+
+
 
 /********************footer************************/
 /* footer section styling */
