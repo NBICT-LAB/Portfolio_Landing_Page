@@ -38,6 +38,9 @@ The navbar toggle appears at this breakpoint */
   z-index: 99;
 }
 
+.btn-nav{
+  margin-right: 10px;
+}
 
 /******************banner*********************/
 
