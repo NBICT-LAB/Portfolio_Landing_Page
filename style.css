@@ -19,7 +19,6 @@ The navbar toggle appears at this breakpoint */
   
   .kd-on{
     background:#ddd;
-     /*padding-top: 10px;*/
   }
    .kd-on a{
     text-decoration: none;
@@ -31,6 +30,11 @@ The navbar toggle appears at this breakpoint */
   .kd-on{
     display: none;
   }
+}
+.sticky{
+  position: -webkit-sticky; /* for Safari */
+  position: sticky !important;
+  top: 0;
 }
 /******************banner*********************/
 
