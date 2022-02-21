@@ -35,7 +35,10 @@ The navbar toggle appears at this breakpoint */
   position: -webkit-sticky; /* for Safari */
   position: sticky !important;
   top: 0;
+  z-index: 99;
 }
+
+
 /******************banner*********************/
 
 #filled:hover {
@@ -164,22 +167,15 @@ footer{
     background: #111;
     padding: 15px 23px;
     color: #fff;
-    /* text-align: center; */
+    text-align: center;
     clear: both;
 }
 footer span a{
     color: crimson;
     text-decoration: none;
 }
-footer span a:hover{
-    text-decoration: underline;
-}
-.footer-nbict{
-    /* float: left; */
-}
-.privacy{
-    float: right;
-}
+
+
 
 
 
